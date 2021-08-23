@@ -1,15 +1,11 @@
 
-using csharp_tutorial.Helpers.Hsl;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
-using System.Linq;
-using System.Net.Http;
-using System.Threading.Tasks;
-using Xunit;
+using System.Collections.Generic;
+using System.IO;
+using System.IO.Compression;
 
-namespace csharp_tutorial
+namespace ZipSlip
 {
-    public class Glenn
+    public class ZipSlipNoncompliant
     {
         public void ExtractEntry(IEnumerator<ZipArchiveEntry> entriesEnumerator, string destinationDirectory)
         {
