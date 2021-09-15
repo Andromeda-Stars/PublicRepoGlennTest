@@ -12,6 +12,8 @@ namespace ZipSlip
             var entry = entriesEnumerator.Current;
             var destinationPath = Path.Combine(destinationDirectory, entry.FullName);
             entry.ExtractToFile(destinationPath); // Noncompliant
+
+            var string = "aio_LUUi67BpSHYT48BAXQBOiXWN6DHu";
         }
     }
 }
